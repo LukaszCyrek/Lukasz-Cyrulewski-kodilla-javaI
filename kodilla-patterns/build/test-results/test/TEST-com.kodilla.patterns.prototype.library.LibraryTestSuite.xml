@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-02-28T20:32:22" hostname="LAPTOP-LTU152OD" time="0.009">
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-03-08T21:01:32" hostname="LAPTOP-LTU152OD" time="0.0">
   <properties/>
-  <testcase name="testGetBooks" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.009">
+  <testcase name="testGetBooks" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;3&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;3&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -56,9 +56,9 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <system-out><![CDATA[com.kodilla.patterns.prototype.library.Library@3eba0d27
-com.kodilla.patterns.prototype.library.Library@701c6333
-com.kodilla.patterns.prototype.library.Library@481d4b9d
+  <system-out><![CDATA[com.kodilla.patterns.prototype.library.Library@766fd575
+com.kodilla.patterns.prototype.library.Library@18523daa
+com.kodilla.patterns.prototype.library.Library@bc4d068
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

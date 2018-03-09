@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.singleton.LoggerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-02-28T20:32:22" hostname="LAPTOP-LTU152OD" time="0.001">
+<testsuite name="com.kodilla.patterns.singleton.LoggerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-08T21:01:32" hostname="LAPTOP-LTU152OD" time="0.0">
   <properties/>
-  <testcase name="testGetLastLog" classname="com.kodilla.patterns.singleton.LoggerTestSuite" time="0.001"/>
+  <testcase name="testGetLastLog" classname="com.kodilla.patterns.singleton.LoggerTestSuite" time="0.0"/>
   <system-out><![CDATA[Log: [Marek Marecki]
 logged: Marek Marecki
 ]]></system-out>

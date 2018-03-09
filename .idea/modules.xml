@@ -14,9 +14,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web_test.iml" group="kodilla-spring-web" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring_main.iml" group="kodilla-spring" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring_test.iml" group="kodilla-spring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-stream.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-stream.iml" group="kodilla-stream" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-stream_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-stream_main.iml" group="kodilla-stream" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-stream_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-stream_test.iml" group="kodilla-stream" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/moje-projekty.iml" filepath="$PROJECT_DIR$/.idea/modules/moje-projekty.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/moje-projekty_main.iml" filepath="$PROJECT_DIR$/.idea/modules/moje-projekty_main.iml" group="moje-projekty" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/moje-projekty_test.iml" filepath="$PROJECT_DIR$/.idea/modules/moje-projekty_test.iml" group="moje-projekty" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/raz/raz.iml" filepath="$PROJECT_DIR$/.idea/modules/raz/raz.iml" />
     </modules>
   </component>
 </project>
