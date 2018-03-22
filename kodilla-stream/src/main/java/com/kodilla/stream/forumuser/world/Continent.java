@@ -7,32 +7,28 @@ import java.util.Set;
 
 public final class Continent {
 
-        private final String nameCountries;
+        private final String name;
+        private final Set<Country> listCountry = new HashSet<>();
 
-        private final BigDecimal quanityPeople;
-        private final Set<Continent> listCountry = new HashSet<>();
-
-
-        public Continent(String nameCountries, BigDecimal quanityPeople) {
-            this.nameCountries = nameCountries;
-            this.quanityPeople = quanityPeople;
+        public Continent(String nameCountries) {
+            this.name = nameCountries;
         }
 
-        public String getNameCountries() {
-            return nameCountries;
+        public String getName() {
+            return name;
         }
 
-        public BigDecimal getQuanityPeople() {
-            return quanityPeople;
-        }
+    public Set<Country> getListCountry() {
+        return listCountry;
+    }
 
-        public void addCountry(Continent country) {
+    public void addCountry(Country country) {
             listCountry.add(country);
         }
         @Override
         public String toString() {
             return "Continent{" +
-                    "nameCountries='" + nameCountries + '\'' +
+                    "name='" + name + '\'' +
                     '}';
         }
 

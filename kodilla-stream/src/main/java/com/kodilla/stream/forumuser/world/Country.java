@@ -2,11 +2,22 @@ package com.kodilla.stream.forumuser.world;
 
 import java.math.BigDecimal;
 
-public final class Country implements People {
+public final class Country {
 
-    public BigDecimal getPeopleQuantity() {
-        BigDecimal peopleQuanity = new BigDecimal("3425436464557547575754");
-        return  peopleQuanity;
+    String name;
+    BigDecimal numberPeople;
+
+    public Country(String name, BigDecimal numberPeople) {
+        this.name = name;
+        this.numberPeople = numberPeople;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public BigDecimal getNumberPeople() {
+        return numberPeople;
     }
 
 }

@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns.iml" group="kodilla-good-patterns" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1100261775/kodilla-good-patterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1100261775/kodilla-good-patterns_main.iml" group="kodilla-good-patterns" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1100261775/kodilla-good-patterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1100261775/kodilla-good-patterns_test.iml" group="kodilla-good-patterns" />
+      <module fileurl="file://$PROJECT_DIR$/kodilla-hibernate/kodilla-hibernate.iml" filepath="$PROJECT_DIR$/kodilla-hibernate/kodilla-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-hibernate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate_main.iml" group="kodilla-hibernate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-hibernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate_test.iml" group="kodilla-hibernate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc.iml" group="kodilla-jdbc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-714975265/kodilla-jdbc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-714975265/kodilla-jdbc_main.iml" group="kodilla-jdbc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-714975265/kodilla-jdbc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-714975265/kodilla-jdbc_test.iml" group="kodilla-jdbc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns.iml" group="kodilla-patterns" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-patterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-patterns_main.iml" group="kodilla-patterns" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-patterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-patterns_test.iml" group="kodilla-patterns" />
@@ -21,6 +30,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/moje-projekty_main.iml" filepath="$PROJECT_DIR$/.idea/modules/moje-projekty_main.iml" group="moje-projekty" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/moje-projekty_test.iml" filepath="$PROJECT_DIR$/.idea/modules/moje-projekty_test.iml" group="moje-projekty" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/raz/raz.iml" filepath="$PROJECT_DIR$/.idea/modules/raz/raz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rozne.iml" filepath="$PROJECT_DIR$/.idea/modules/rozne.iml" group="rozne" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/730639781/rozne_main.iml" filepath="$PROJECT_DIR$/.idea/modules/730639781/rozne_main.iml" group="rozne" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/730639781/rozne_test.iml" filepath="$PROJECT_DIR$/.idea/modules/730639781/rozne_test.iml" group="rozne" />
     </modules>
   </component>
 </project>

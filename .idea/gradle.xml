@@ -8,14 +8,28 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/kodilla-good-patterns" />
+            <option value="$PROJECT_DIR$/kodilla-jdbc" />
             <option value="$PROJECT_DIR$/kodilla-patterns" />
             <option value="$PROJECT_DIR$/kodilla-spring" />
             <option value="$PROJECT_DIR$/kodilla-spring-intro" />
             <option value="$PROJECT_DIR$/kodilla-spring-web" />
             <option value="$PROJECT_DIR$/kodilla-stream" />
+            <option value="$PROJECT_DIR$/rozne" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-hibernate" />
+        <option name="gradleHome" value="C:/gradle-4.4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kodilla-hibernate" />
+          </set>
+        </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
@@ -25,11 +39,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/kodilla-good-patterns" />
+            <option value="$PROJECT_DIR$/kodilla-jdbc" />
             <option value="$PROJECT_DIR$/kodilla-patterns" />
             <option value="$PROJECT_DIR$/kodilla-spring" />
             <option value="$PROJECT_DIR$/kodilla-spring-intro" />
             <option value="$PROJECT_DIR$/kodilla-spring-web" />
             <option value="$PROJECT_DIR$/kodilla-stream" />
+            <option value="$PROJECT_DIR$/rozne" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

@@ -4,4 +4,7 @@ include 'kodilla-spring-intro'
 include 'kodilla-spring-web'
 include 'kodilla-stream'
 include 'kodilla-stream'
+include 'kodilla-good-patterns'
+include 'kodilla-jdbc'
+include 'rozne'
 

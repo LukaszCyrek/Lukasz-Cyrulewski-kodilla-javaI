@@ -4,6 +4,12 @@
     <bytecodeTargetLevel>
       <module name="Kodilla-Course_main" target="1.8" />
       <module name="Kodilla-Course_test" target="1.8" />
+      <module name="kodilla-good-patterns_main" target="1.8" />
+      <module name="kodilla-good-patterns_test" target="1.8" />
+      <module name="kodilla-hibernate_main" target="1.8" />
+      <module name="kodilla-hibernate_test" target="1.8" />
+      <module name="kodilla-jdbc_main" target="1.8" />
+      <module name="kodilla-jdbc_test" target="1.8" />
       <module name="kodilla-patterns_main" target="1.8" />
       <module name="kodilla-patterns_test" target="1.8" />
       <module name="kodilla-spring-intro_main" target="1.8" />
@@ -22,6 +28,8 @@
       <module name="moje-projekty_test" target="1.8" />
       <module name="raz_main" target="1.8" />
       <module name="raz_test" target="1.8" />
+      <module name="rozne_main" target="1.8" />
+      <module name="rozne_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
