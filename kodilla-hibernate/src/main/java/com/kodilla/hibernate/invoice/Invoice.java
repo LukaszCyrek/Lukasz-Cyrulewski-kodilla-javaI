@@ -1,7 +1,4 @@
 package com.kodilla.hibernate.invoice;
-
-import com.sun.javafx.beans.IDProperty;
-
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
@@ -32,6 +29,12 @@ public class Invoice {
         return number;
     }
 
+    @OneToMany (
+            targetEntity = Item.class,
+            mappedBy = "invoice",
+            cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY
+    )
     @Column(name = "ITEMS")
     public List<Item> getItems() {
         return items;

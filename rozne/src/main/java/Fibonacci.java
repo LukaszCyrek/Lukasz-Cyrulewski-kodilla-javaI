@@ -1,6 +1,8 @@
+
+
 public class Fibonacci {
     public static void main(String[] args) {
-        int numbers[] = new int[23];
+        int numbers[] = new int[30];
         numbers[1]=1;
         numbers[0]=1;
         for (int i=2; i<numbers.length; i++)

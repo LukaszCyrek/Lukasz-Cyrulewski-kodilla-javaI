@@ -2,12 +2,17 @@ package com.kodilla.hibernate.invoice;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.util.ArrayList;
+import java.util.List;
+
 
 @Entity
 @Table(name = "PRODUCT")
 public class Product {
     private int id;
     private String name;
+    private List<Item> items = new ArrayList<>();
+
 
     public Product() {
 
@@ -25,7 +30,6 @@ public class Product {
         return id;
     }
 
-    @ManyToOne
     @Column(name = "NAME")
     public String getName() {
         return name;
@@ -37,5 +41,14 @@ public class Product {
 
     private void setName(String name) {
         this.name = name;
+    }
+
+    @OneToMany
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
     }
 }
