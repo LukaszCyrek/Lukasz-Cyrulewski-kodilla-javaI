@@ -56,6 +56,16 @@ public class InvoiceDaoTestSuite {
         Assert.assertNotEquals(0, listTwoId);
         Assert.assertNotEquals(0, listThreeId);
 
+        //CleanUp
+            //    try {
+            //invoiceDao.delete(listOneId);
+            //invoiceDao.delete(listTwoId);
+            //invoiceDao.delete(listThreeId);
+            //} catch (Exception e) {
+            //    //do nothing
+            //}
         }
+
+
     }
 
