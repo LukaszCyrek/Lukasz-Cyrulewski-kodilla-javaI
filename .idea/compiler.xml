@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.crud_main" target="1.8" />
+      <module name="com.crud_test" target="1.8" />
       <module name="Kodilla-Course_main" target="1.8" />
       <module name="Kodilla-Course_test" target="1.8" />
       <module name="kodilla-good-patterns_main" target="1.8" />
@@ -22,6 +27,8 @@
       <module name="kodilla-Stream_main" target="1.8" />
       <module name="kodilla-Stream_test" target="1.8" />
       <module name="kodilla-stream_test" target="1.8" />
+      <module name="kodilla-testing_main" target="1.8" />
+      <module name="kodilla-testing_test" target="1.8" />
       <module name="moje-projekty-kodilla-stream_main" target="1.8" />
       <module name="moje-projekty-kodilla-stream_test" target="1.8" />
       <module name="moje-projekty_main" target="1.8" />
@@ -30,6 +37,8 @@
       <module name="raz_test" target="1.8" />
       <module name="rozne_main" target="1.8" />
       <module name="rozne_test" target="1.8" />
+      <module name="tasks_main" target="1.8" />
+      <module name="tasks_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

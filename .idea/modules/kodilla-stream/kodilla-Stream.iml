@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../kodilla-stream">
       <excludeFolder url="file://$MODULE_DIR$/../../../kodilla-stream/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../kodilla-stream/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../kodilla-stream/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
