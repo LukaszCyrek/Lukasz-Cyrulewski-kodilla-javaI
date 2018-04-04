@@ -20,6 +20,8 @@ import java.util.ArrayList;
 public class InvoiceDaoTestSuite {
     @Autowired
     InvoiceDao invoiceDao;
+    @Autowired
+    ProductDao productDao;
 
     @Test
     public void testInvoiceDaoSave() {
@@ -34,22 +36,31 @@ public class InvoiceDaoTestSuite {
         Product trousers = new Product("Nike");
         Product blouse = new Product("Puma");
 
-        Item ItemFirst = new Item(new BigDecimal("12"), 2, new BigDecimal("30"));
-        Item ItemSecond = new Item(new BigDecimal("23"), 4, new BigDecimal("70"));
-        Item ItemThird = new Item(new BigDecimal("30"), 5, new BigDecimal("90"));
+        Item itemFirst = new Item(new BigDecimal("12"), 2, new BigDecimal("30"));
+        Item itemSecond = new Item(new BigDecimal("23"), 4, new BigDecimal("70"));
+        Item itemThird = new Item(new BigDecimal("30"), 5, new BigDecimal("90"));
 
+        itemFirst.setProduct(shoes);
+        itemSecond.setProduct(trousers);
+        itemThird.setProduct(blouse);
 
-        listOne.getItems().add(ItemFirst);
-        listTwo.getItems().add(ItemSecond);
-        listThree.getItems().add(ItemThird);
+        listOne.getItems().add(itemFirst);
+        listTwo.getItems().add(itemSecond);
+        listThree.getItems().add(itemThird);
 
         //When
+        productDao.save(shoes);
+        productDao.save(trousers);
+        productDao.save(blouse);
+
         invoiceDao.save(listOne);
         int listOneId = listOne.getId();
         invoiceDao.save(listTwo);
         int listTwoId = listTwo.getId();
         invoiceDao.save(listThree);
         int listThreeId = listThree.getId();
+
+
 
         //Then
         Assert.assertNotEquals(0, listOneId);
