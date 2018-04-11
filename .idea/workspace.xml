@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeef8ab2-80de-465f-9152-1e89bbf84aed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/tasks/out/production/classes/com/crud/tasks/mapper/TaskMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tasks/out/production/classes/com/crud/tasks/repository/TaskRepository.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tasks/out/production/classes/com/crud/tasks/service/DbService.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/out/production/classes/com/kodilla/stream/forumuser/world/World.class" afterPath="$PROJECT_DIR$/kodilla-stream/out/production/classes/com/kodilla/stream/forumuser/world/World.class" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/out/test/classes/portfolio/BoardTestSuite.class" afterPath="$PROJECT_DIR$/kodilla-stream/out/test/classes/portfolio/BoardTestSuite.class" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/test/java/portfolio/BoardTestSuite.java" afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/portfolio/BoardTestSuite.java" />
-      <change beforePath="$PROJECT_DIR$/tasks/out/production/classes/com/crud/tasks/controller/TaskController.class" afterPath="$PROJECT_DIR$/tasks/out/production/classes/com/crud/tasks/controller/TaskController.class" />
-      <change beforePath="$PROJECT_DIR$/tasks/out/production/classes/com/crud/tasks/domain/Task.class" afterPath="$PROJECT_DIR$/tasks/out/production/classes/com/crud/tasks/domain/Task.class" />
-      <change beforePath="$PROJECT_DIR$/tasks/out/production/classes/com/crud/tasks/domain/TaskDTo.class" afterPath="$PROJECT_DIR$/tasks/out/production/classes/com/crud/tasks/domain/TaskDTo.class" />
-      <change beforePath="$PROJECT_DIR$/tasks/out/production/resources/application.properties" afterPath="$PROJECT_DIR$/tasks/out/production/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/controller/TaskController.java" afterPath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/controller/TaskController.java" />
-      <change beforePath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/domain/Task.java" afterPath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/domain/Task.java" />
-      <change beforePath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/domain/TaskDTo.java" afterPath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/domain/TaskDTo.java" />
-      <change beforePath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/mapper/TaskMapper.java" afterPath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/mapper/TaskMapper.java" />
-      <change beforePath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/repository/TaskRepository.java" afterPath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/repository/TaskRepository.java" />
       <change beforePath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/service/DbService.java" afterPath="$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/service/DbService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -161,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/service/DbService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="e#466#467#0" expanded="true" />
                 <element signature="e#527#528#0" expanded="true" />
@@ -3449,7 +3434,7 @@
       <workItem from="1523125914926" duration="7555000" />
       <workItem from="1523167176533" duration="2995000" />
       <workItem from="1523305843636" duration="4686000" />
-      <workItem from="1523460070728" duration="1666000" />
+      <workItem from="1523460070728" duration="1772000" />
     </task>
     <servers />
   </component>
@@ -3486,11 +3471,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213169000" />
+    <option name="totallyTimeSpent" value="213275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
@@ -3512,7 +3496,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5049724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3447514" sideWeight="0.49583334" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3447514" sideWeight="0.49583334" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3917,7 +3901,7 @@
     <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/crud/tasks/service/DbService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="e#466#467#0" expanded="true" />
             <element signature="e#527#528#0" expanded="true" />
