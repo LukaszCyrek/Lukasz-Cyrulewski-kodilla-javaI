@@ -5,10 +5,7 @@ import com.crud.tasks.mapper.TaskMapper;
 import com.crud.tasks.service.DbService;
 import javafx.application.Application;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,22 +25,23 @@ public class TaskController {
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "getTask")
-    public TaskDTo getTask(Long taskId) {
+    public TaskDTo getTask(@RequestParam Long taskId) throws TaskNotFoundException {
       //return new TaskDTo((long) 1, "test title", "test_content");
-        return taskMapper.mapToTaskDto(service.getTaskById(taskId));
+        return taskMapper.mapToTaskDto(service.getTask(taskId).orElseThrow(TaskNotFoundException:: new));
     }
 
     @RequestMapping(method = RequestMethod.DELETE, value = "deleteTask")
-    public void deleteTask(String taskId) {
+    public void deleteTask(@RequestParam Long taskId) {
+      service.deleteTask(taskId);
     }
 
     @RequestMapping(method = RequestMethod.PUT, value = "updateTask")
-    public TaskDTo updateTask(TaskDTo taskDTo) {
-        return new TaskDTo((long)1, "Edit test title", "Test content");
+    public TaskDTo updateTask(@RequestBody TaskDTo taskDTo) {
+        return taskMapper.mapToTaskDto(service.saveTask(taskMapper.mapToTask(taskDTo)));
     }
 
-   // @RequestMapping(method = RequestMethod.POST, value = "createTask")
-   // public void createTask(@RequestBody TaskDTo taskDTo) {
-    //  service.saveTask(taskMapper.mapToTask(taskDTo));
-   // }
+    @RequestMapping(method = RequestMethod.POST, value = "createTask")
+    public void createTask(@RequestBody TaskDTo taskDTo) {
+      service.saveTask(taskMapper.mapToTask(taskDTo));
+    }
 }

@@ -6,8 +6,9 @@ import lombok.NoArgsConstructor;
 
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
-
+@NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Entity(name = "tasks")
@@ -22,8 +23,4 @@ public class Task {
     @Column(name = "description")
     private String content;
 
-    public Task(String title, String content) {
-        this.title = title;
-        this.content = content;
-    }
 }
