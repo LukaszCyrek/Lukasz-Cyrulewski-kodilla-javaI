@@ -11,7 +11,7 @@ public interface ArrayOperations {
                 .forEach(System.out::println);
         OptionalDouble average = IntStream.of(numbers)
                 .average();
-             return average.getAsDouble();
+             return average.orElse(0);
     }
         }
 

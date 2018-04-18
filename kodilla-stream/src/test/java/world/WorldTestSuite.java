@@ -21,6 +21,11 @@ public class WorldTestSuite{
         Country  egipt = new Country("Egipt", new BigDecimal("50"));
         Country chiny = new Country("Chiny", new BigDecimal("400"));
         Country niemcy = new Country("Niemcy",new BigDecimal("200"));
+        Country kamerun = new Country("Kamerun", new BigDecimal("1000"));
+        Country japonia = new Country("Japonia", new BigDecimal("600"));
+        Country wegry = new Country("Węgry", new BigDecimal("300"));
+        Country indie = new Country("Indie", new BigDecimal("100"));
+        Country tunezja = new Country("Tunezja", new BigDecimal("50"));
 
         world.addContinent(europa);
         world.addContinent(afryka);
@@ -28,11 +33,17 @@ public class WorldTestSuite{
 
         europa.addCountry(polska);
         europa.addCountry(niemcy);
+        europa.addCountry(wegry);
         azja.addCountry(chiny);
+        azja.addCountry(japonia);
+        azja.addCountry(indie);
         afryka.addCountry(egipt);
+        afryka.addCountry(kamerun);
+        afryka.addCountry(tunezja);
+
 
        BigDecimal worldPopulation = world.getPeopleQuantity();
-        Assert.assertEquals(new BigDecimal("750"), worldPopulation);
+        Assert.assertEquals(new BigDecimal("2800"), worldPopulation);
 
     }
 }

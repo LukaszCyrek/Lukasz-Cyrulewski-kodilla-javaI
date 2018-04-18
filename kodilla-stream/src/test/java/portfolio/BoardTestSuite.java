@@ -10,8 +10,10 @@ import org.junit.Test;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 
+import static java.time.temporal.ChronoUnit.DAYS;
 
 
 public class BoardTestSuite {
@@ -97,12 +99,12 @@ public class BoardTestSuite {
                 .flatMap(taskList -> taskList.getTasks().stream())
                 .collect(Collectors.toList());
 
-        //long quantityOfDays = project.getTaskLists().stream()
-        //      .filter(inProgressTasks::contains)
-        //    .flatMap(taskList -> taskList.getTasks().stream())
-        //   .mapToInt(task -> DAYS.between(task.average.)
+       OptionalDouble quantityOfDays = project.getTaskLists().stream()
+                .filter(inProgressTasks::contains)
+             .flatMap(taskList -> taskList.getTasks().stream())
+             .map(task -> DAYS.between(task.getCreated(),task.getDeadline()))
+             .mapToLong(x-> x).average();
 
-
-        //  Assert.assertEquals(3, sumOfTasks.size());
+                   Assert.assertEquals(18.3, quantityOfDays.getAsDouble(), 0.1);
     }
 }

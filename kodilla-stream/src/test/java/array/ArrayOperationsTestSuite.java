@@ -12,7 +12,12 @@ public class ArrayOperationsTestSuite {
 
         int[] numbers = {15, 28, 29, 33, 37, 42, 45, 49, 54, 58, 59, 66, 78, 83, 84, 89, 90, 95, 97, 100};
 
-        Assert.assertEquals(ArrayOperations.getAverage(numbers), 61.55, 0);
+        Assert.assertEquals(61.55, ArrayOperations.getAverage(numbers), 0.1);
 
+    }
+    @Test
+    public void testGetAverageEmpty(){
+        int [] numbers={};
+        Assert.assertEquals(0, ArrayOperations.getAverage(numbers),  0.1);
     }
 }
