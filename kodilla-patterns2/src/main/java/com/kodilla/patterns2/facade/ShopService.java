@@ -10,7 +10,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
-@Component
+
 @Service
 public class ShopService {
     private final List<Order> orders = new ArrayList<>();
