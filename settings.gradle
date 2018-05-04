@@ -8,5 +8,5 @@ include 'kodilla-good-patterns'
 include 'kodilla-jdbc'
 include 'rozne'
 include 'kodilla-testing'
-
+include 'kodilla-patterns2'
 
