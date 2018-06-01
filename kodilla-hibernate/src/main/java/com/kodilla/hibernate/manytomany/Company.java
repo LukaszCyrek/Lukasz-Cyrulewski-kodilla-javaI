@@ -9,7 +9,7 @@ import java.util.List;
 
 @NamedNativeQuery(
         name = "Company.threeLetters",
-        query = "SELECT LEFT(company_name, 3) FROM companies",
+        query = "FROM COMPANIES WHERE NAME LIKE :COMPANY_NAME",
         resultClass = Company.class
 )
 @Entity
