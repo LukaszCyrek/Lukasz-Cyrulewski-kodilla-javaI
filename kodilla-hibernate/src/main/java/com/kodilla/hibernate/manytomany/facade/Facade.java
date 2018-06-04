@@ -18,6 +18,6 @@ public class Facade {
 
     }
     public List<Company> findCompany(String name) {
-        return companyDao.searchByName("%" + name + "$");
+        return companyDao.searchByName("%" + name + "%");
     }
 }
