@@ -14,10 +14,10 @@ public class Facade {
     CompanyDao companyDao;
 
     public List<Employee> findEmployee(String secondName) {
-        return employeeDao.searchByName("%" + secondName + "%");
+        return employeeDao.findByLastname("%" + secondName + "%");
 
     }
     public List<Company> findCompany(String name) {
-        return companyDao.searchByName("%" + name + "%");
+        return companyDao.findByName("%" + name + "%");
     }
 }

@@ -49,7 +49,7 @@ public class CompanyDaoTestSuite {
         int dataMaestersId = dataMaesters.getId();
         companyDao.save(greyMatter);
         int greyMatterId = greyMatter.getId();
-        List<Employee> searchName =employeeDao.searchByName("Smith");
+        List<Employee> searchName =employeeDao.findByLastname("Smith");
 
 
         //Then
