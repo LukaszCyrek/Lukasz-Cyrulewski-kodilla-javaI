@@ -14,8 +14,10 @@ public class FacebookTestingApp {
     public static final String XPATH_INPUT3= PREFIX + "div[2]/div/div/input";
     public static final String XPATH_INPUT4 = PREFIX + "div[5]/div/div/input";
     public static final String XPATH_SELECT = PREFIX + "div[6]/div[2]/span/span/select";
-    public static final String XPATH_SELECT2 = "html/body/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/form//div[6]/div/span/span/select[2]";
-    public static final String XPATH_SELECT3 = "html/body/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/form//div[6]/div/span/span/select[3]";
+    public static final String XPATH_SELECT2 = "//div[contains(@class, \"large_form\")]/div/div/span/span/select[2]";
+    public static final String XPATH_SELECT3 = "//div[contains(@class, \"large_form\")]/div/div/span/span/select[3]";
+    public static final String XPATH_INPUT5 =  "//div[contains(@class, \"large_form\")]/div/div/span/span[2]/input";
+
     public static void main(String[] args) {
         WebDriver driver = WebDriverConfig.getDriver(WebDriverConfig.FIREFOX);
         driver.get("https://www.facebook.com/");
@@ -32,23 +34,29 @@ public class FacebookTestingApp {
         WebElement searchField4 = driver.findElement(By.xpath(XPATH_INPUT4));
         searchField4.sendKeys("razdwatrzy");
 
-        while (!driver.findElement(By.xpath(XPATH_SELECT)).isDisplayed());
+        while (!driver.findElement(By.xpath(XPATH_SELECT)).isDisplayed()
+        && !driver.findElement(By.xpath(XPATH_SELECT2)).isDisplayed()
+        && !driver.findElement(By.xpath(XPATH_SELECT3)).isDisplayed()
+        && !driver.findElement(By.xpath(XPATH_INPUT5)).isDisplayed());
+
 
         WebElement selectCombo = driver.findElement(By.xpath(XPATH_SELECT));
-        Select selectBoard = new Select(selectCombo);
-        selectBoard.selectByIndex(7);
+        Select selectDay = new Select(selectCombo);
+        selectDay.selectByIndex(7);
 
-        while (!driver.findElement(By.xpath(XPATH_SELECT2)).isDisplayed());
 
         WebElement selectCombo2 = driver.findElement(By.xpath(XPATH_SELECT2));
-        Select selectBoard2 = new Select(selectCombo2);
-        selectBoard2.selectByIndex(6);
-
-        while (!driver.findElement(By.xpath(XPATH_SELECT3)).isDisplayed());
+        Select selectMonth = new Select(selectCombo2);
+        selectMonth.selectByValue("4");
 
         WebElement selectCombo3 = driver.findElement(By.xpath(XPATH_SELECT3));
-        Select selectBoard3 = new Select(selectCombo3);
-        selectBoard3.selectByIndex(1991);
+        Select selectYear = new Select(selectCombo3);
+        selectYear.selectByValue("2000");
+
+        WebElement selectCombo4 = driver.findElement(By.xpath(XPATH_INPUT5));
+       selectCombo4.click();
+
 
     }
+
 }

@@ -1,17 +1,21 @@
 package com.kodilla.hibernate.manytomany;
-
-import org.hibernate.sql.Select;
-
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
-@NamedNativeQuery(
-        name = "Company.threeLetters",
-        query = "FROM COMPANIES WHERE NAME LIKE :COMPANY_NAME",
-        resultClass = Company.class
-)
+
+
+@NamedNativeQueries({
+        @NamedNativeQuery(name = "Company.finFirstThreeLettersCompany",
+                query = "SELECT * FROM companies WHERE LEFT(company_name, 3) = :LETTERS ",
+                resultClass = Company.class
+        ),
+        @NamedNativeQuery(name = "Company.findCompanyWithAnyMatch",
+                query = "SELECT * FROM companies WHERE company_name  LIKE CONCAT('%', :LETTERS, '%')",
+                resultClass = Company.class
+        )
+})
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
@@ -47,8 +51,7 @@ public class Company {
     private void setName(String name) {
         this.name = name;
     }
-
-    @ManyToMany(cascade = CascadeType.ALL,mappedBy = "companies")
+    @ManyToMany(cascade = CascadeType.ALL, mappedBy = "companies")
     public List<Employee> getEmployees() {
         return employees;
     }
@@ -57,4 +60,3 @@ public class Company {
         this.employees = employees;
     }
 }
-
